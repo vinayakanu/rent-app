@@ -1,2 +1,2 @@
-# rent-app
+# bissi-app
 this test rent app
