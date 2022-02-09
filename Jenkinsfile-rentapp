@@ -13,7 +13,7 @@ pipeline{
          sh "mv target/*.war target/myweb.war"
       }
     }
-   stage(dev-deploy){
+   stage("dev-deploy"){
      steps{
      sshagent(['tomcat-user']) {
           sh """
